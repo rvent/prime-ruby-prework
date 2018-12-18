@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if number < 1
+  if number <= 1
     return false
   end
   (1...number).each do |num|

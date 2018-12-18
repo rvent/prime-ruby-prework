@@ -1,6 +1,6 @@
 # Add  code here!
 require 'benchmark'
-require 'prime'
+require './prime.rb'
 
 n = 50000
 Benchmark.bm do |x|

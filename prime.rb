@@ -10,7 +10,7 @@ def prime?(number)
   end
   true
 end
-puts prime?(1000110010111)
+puts prime?(10111100110010111)
 def prime_two?(number)
   if number <= 1
     return false

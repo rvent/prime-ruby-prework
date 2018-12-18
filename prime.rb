@@ -1,16 +1,9 @@
 # Add  code here!
 def prime?(number)
-
-  (2..number/2).each do |num|
-    if number % num == 0
-      return false
-    end
+  if number <= 1
+    return false
   end
-  true
-end
-
-def prime_two?(number)
-  (2..number).each do |num|
+  (2..number/2).each do |num|
     if number % num == 0
       return false
     end
